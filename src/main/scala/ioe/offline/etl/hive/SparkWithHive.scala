@@ -1,4 +1,4 @@
-package com.ibm.offline.etl.hive
+package ioe.offline.etl.hive
 
 import org.apache.spark.sql.SparkSession
 

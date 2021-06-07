@@ -1,4 +1,4 @@
-package com.ibm.online.cdc;
+package ioe.online.cdc;
 
 import org.apache.flink.configuration.ConfigConstants;
 import org.apache.flink.configuration.Configuration;

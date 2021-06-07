@@ -1,4 +1,4 @@
-package com.ibm.online.house;
+package ioe.online.house;
 
 import org.apache.flink.table.api.EnvironmentSettings;
 import org.apache.flink.table.api.SqlDialect;
@@ -14,7 +14,7 @@ public class BlinkFromHive {
                 "src/main/resources");
         tableEnv.registerCatalog("hive",hiveCatalog);
         tableEnv.useCatalog("hive");
-        //tableEnv.getConfig().setSqlDialect(SqlDialect.HIVE);
+        tableEnv.getConfig().setSqlDialect(SqlDialect.HIVE);
 
         tableEnv.executeSql("show databases");
     }

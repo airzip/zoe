@@ -1,4 +1,4 @@
-package com.ibm.online.lake;
+package ioe.online.lake;
 
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.configuration.RestOptions;

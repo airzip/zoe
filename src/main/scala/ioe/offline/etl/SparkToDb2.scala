@@ -1,4 +1,4 @@
-package com.ibm.offline.etl
+package ioe.offline.etl
 
 import org.apache.spark.sql.SparkSession
 
